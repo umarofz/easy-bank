@@ -1,0 +1,15 @@
+@mixin btn__normal {
+  border: none;
+  outline: none;
+  background: none;
+  background: linear-gradient(135deg, #33D35E 0%, #2AB6D9 99.58%);
+  border-radius: 22px;
+  padding: 8px 36px 8px 33px;
+  font-family: 'Public Sans';
+  font-size: 14px;
+  line-height: 28px;
+  color: #FFFFFF;
+  cursor: pointer;
+  min-width: 163px;
+  max-width: 200px;
+}

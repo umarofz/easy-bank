@@ -1,0 +1,44 @@
+.hero {
+  background-image: url("./../../images/phone__bgi.png");
+  background-repeat: no-repeat;
+  background-position: calc(50% + 480px) -130px;
+
+  &__inner-wrapper {
+    padding-top: 170px;
+    padding-bottom: 170px;
+  }
+
+  &__container {
+  }
+
+  &__left {
+    max-width: 447px;
+    width: 100%;
+  }
+
+  &__heading {
+    font-size: 56px;
+    line-height: 64px;
+    letter-spacing: -1px;
+    color: #2D314D;
+    margin-bottom: 24px;
+  }
+
+  &__text {
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: -0.28125px;
+    color: #9597A5;
+    margin-bottom: 36px;
+  }
+
+  &__btn {
+    @include btn__normal;
+  }
+}
+
+.main {
+  background-image: url("./../../images/shape__bgi.png");
+  background-repeat: no-repeat;
+  background-position: calc(50% + 605px) -260px ;
+}

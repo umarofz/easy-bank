@@ -1,0 +1,112 @@
+.choose {
+
+  background-color: #F4F5F7;
+  margin-bottom: 80px;
+  background-image: url(./../../images/phone__bgi.png);
+  background-repeat: no-repeat;
+  background-position: calc(50% + 480px) -800px;
+
+  &__inner-wrapper {
+  }
+
+  &__container {
+    padding: 96px 165px 94px 165px;
+  }
+
+  &__heading {
+    font-size: 40px;
+    line-height: 64px;
+    margin-bottom: 16px;
+    letter-spacing: -0.714286px;
+    color: #2D314D;
+
+  }
+
+  &__text {
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: -0.28125px;
+    color: #9597A5;
+    margin-bottom: 72px;
+    width: 635px;
+  }
+
+  &__list {
+    display: flex;
+    gap: 30px;
+  }
+
+  &__item {
+    position: relative;
+
+    &:nth-child(2) .choose__item-span::before {
+      content: "";
+      background-image: url(./../../images/simple.svg);
+      background-repeat: no-repeat;
+      background-position: 23px 18px;
+      width: 60px;
+      height: 60px;
+      display: inline-block;
+      padding: 16px;
+      margin-bottom: 40px;
+    }
+    &:nth-child(3) .choose__item-span::before {
+      content: "";
+      background-image: url(./../../images/fast.svg);
+      background-repeat: no-repeat;
+      background-position: 18px 16px;
+      width: 60px;
+      height: 60px;
+      display: inline-block;
+      padding: 16px;
+      margin-bottom: 40px;
+    }
+    &:nth-child(4) .choose__item-span::before {
+      content: "";
+      background-image: url(./../../images/api.svg);
+      background-repeat: no-repeat;
+      background-position: 18px 16px;
+      width: 60px;
+      height: 60px;
+      display: inline-block;
+      padding: 16px;
+      margin-bottom: 40px;
+    }
+  }
+
+  &__item-span {
+    display: inline-block;
+    background: linear-gradient(135deg, #33D35E 0%, #2AB6D9 99.58%);
+    border-radius: 50%;
+    width: 72px;
+    height: 72px;
+
+    &::before {
+      content: "";
+      background-image: url(./../../images/online.svg);
+      background-repeat: no-repeat;
+      background-position: 15px 18px;
+      width: 60px;
+      height: 60px;
+      display: inline-block;
+      padding: 16px;
+      margin-bottom: 40px;
+    }
+  }
+
+  &__item-heading {
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: -0.428571px;
+    color: #2D314D;
+    margin-bottom: 26px;
+  }
+
+  &__item-text {
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: -0.25px;
+    color: #9597A5;
+    width: 255px;
+  }
+}

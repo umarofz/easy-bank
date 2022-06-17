@@ -1,0 +1,42 @@
+.header {
+
+  padding-top: 25px;
+
+  &__inner-wrapper {
+  }
+
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    padding: 18px 0;
+  }
+
+  &__logo {
+  }
+
+  &__nav {
+  }
+
+  &__list {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+  }
+
+  &__item {
+  }
+
+  &__item-link {
+    text-decoration: none;
+    font-family: 'PublicSans';
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: -0.107692px;
+    color: #9597A5;
+
+  }
+
+  &__btn {
+    @include btn__normal;
+  }
+}
