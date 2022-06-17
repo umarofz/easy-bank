@@ -1,0 +1,58 @@
+.articles {
+  background-color: #F2F2F2;
+  padding: 80px 165px;
+
+  &__inner-wrapper {
+  }
+
+  &__container {
+  }
+
+  &__heading {
+    font-size: 40px;
+    line-height: 64px;
+    letter-spacing: -0.714286px;
+    color: #2D314D;
+    margin-bottom: 40px;
+  }
+
+  &__list {
+    display: flex;
+    gap: 30px;
+  }
+
+  &__item {
+  }
+
+  &__item-img {
+    margin-bottom: 25px;
+    width: 255px;
+    height: 200px;
+  }
+
+  &__item-text {
+    font-size: 10px;
+    line-height: 18px;
+    letter-spacing: -0.15625px;
+    color: #9597A5;
+    margin-bottom: 8px;
+  }
+
+  &__item-heading {
+    font-weight: 100;
+    margin-bottom: 8px;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: -0.285714px;
+    color: #2D314D;
+    width: 207px;
+  }
+
+  &__item-desc {
+    font-size: 13px;
+    line-height: 18px;
+    width: 207px;
+    letter-spacing: -0.203125px;
+    color: #9597A5;
+  }
+}

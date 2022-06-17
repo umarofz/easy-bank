@@ -412,6 +412,7 @@ p {
 
 .header {
   padding-top: 25px;
+  background: #FFFFFF;
 }
 .header__container {
   display: flex;
@@ -451,6 +452,7 @@ p {
   background-image: url("./../../images/phone__bgi.png");
   background-repeat: no-repeat;
   background-position: calc(50% + 480px) -130px;
+  background-color: #F2F2F2;
 }
 .hero__inner-wrapper {
   padding-top: 170px;
@@ -498,7 +500,6 @@ p {
 
 .choose {
   background-color: #F4F5F7;
-  margin-bottom: 80px;
   background-image: url(./../../images/phone__bgi.png);
   background-repeat: no-repeat;
   background-position: calc(50% + 480px) -800px;
@@ -592,4 +593,48 @@ p {
   letter-spacing: -0.25px;
   color: #9597A5;
   width: 255px;
+}
+
+.articles {
+  background-color: #F2F2F2;
+  padding: 80px 165px;
+}
+.articles__heading {
+  font-size: 40px;
+  line-height: 64px;
+  letter-spacing: -0.714286px;
+  color: #2D314D;
+  margin-bottom: 40px;
+}
+.articles__list {
+  display: flex;
+  gap: 30px;
+}
+.articles__item-img {
+  margin-bottom: 25px;
+  width: 255px;
+  height: 200px;
+}
+.articles__item-text {
+  font-size: 10px;
+  line-height: 18px;
+  letter-spacing: -0.15625px;
+  color: #9597A5;
+  margin-bottom: 8px;
+}
+.articles__item-heading {
+  font-weight: 100;
+  margin-bottom: 8px;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: -0.285714px;
+  color: #2D314D;
+  width: 207px;
+}
+.articles__item-desc {
+  font-size: 13px;
+  line-height: 18px;
+  width: 207px;
+  letter-spacing: -0.203125px;
+  color: #9597A5;
 }/*# sourceMappingURL=styles.css.map */
