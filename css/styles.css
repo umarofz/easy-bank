@@ -447,12 +447,14 @@ p {
   min-width: 163px;
   max-width: 200px;
 }
+.header__btn:hover {
+  opacity: 0.4;
+}
 
 .hero {
   background-image: url("./../../images/phone__bgi.png");
   background-repeat: no-repeat;
   background-position: calc(50% + 480px) -130px;
-  background-color: #F2F2F2;
 }
 .hero__inner-wrapper {
   padding-top: 170px;
@@ -491,11 +493,14 @@ p {
   min-width: 163px;
   max-width: 200px;
 }
+.hero__btn:hover {
+  opacity: 0.4;
+}
 
 .main {
-  background-image: url("./../../images/shape__bgi.png");
   background-repeat: no-repeat;
   background-position: calc(50% + 605px) -260px;
+  background-image: url("./../../images/shape__bgi.png");
 }
 
 .choose {
@@ -505,7 +510,7 @@ p {
   background-position: calc(50% + 480px) -800px;
 }
 .choose__container {
-  padding: 96px 165px 94px 165px;
+  padding: 96px 165px 94px 20px;
 }
 .choose__heading {
   font-size: 40px;
@@ -637,4 +642,91 @@ p {
   width: 207px;
   letter-spacing: -0.203125px;
   color: #9597A5;
+}
+
+.footer {
+  background-color: #2D314D;
+}
+.footer__container {
+  padding: 48px 165px;
+  display: flex;
+  justify-content: space-between;
+}
+.footer__left {
+  margin-right: 96px;
+}
+.footer__logo {
+  padding-bottom: 55px;
+}
+.footer__left-smm {
+  margin-right: 131px;
+  max-width: 154px;
+  width: 100%;
+}
+.footer__smm-link {
+  margin-right: 13px;
+}
+.footer__smm-link:last-child {
+  margin: 0;
+}
+.footer__nav {
+  display: flex;
+}
+.footer__list {
+  margin-right: 150px;
+}
+.footer__item {
+  max-width: 200px;
+  width: 100%;
+}
+.footer__item-link {
+  text-decoration: none;
+  font-family: "PublicSans";
+  font-size: 15px;
+  line-height: 26px;
+  letter-spacing: -0.234375px;
+  color: #FFFFFF;
+}
+.footer__list2 {
+  margin-bottom: 8px;
+}
+.footer__item-link2 {
+  text-decoration: none;
+  font-family: "PublicSans";
+  font-size: 15px;
+  line-height: 26px;
+  letter-spacing: -0.234375px;
+  color: #FFFFFF;
+}
+.footer__right {
+  margin-left: 255px;
+}
+.footer__btn {
+  border: none;
+  outline: none;
+  background: none;
+  background: linear-gradient(135deg, #33D35E 0%, #2AB6D9 99.58%);
+  border-radius: 22px;
+  padding: 8px 36px 8px 33px;
+  font-family: "Public Sans";
+  font-size: 14px;
+  line-height: 28px;
+  color: #FFFFFF;
+  cursor: pointer;
+  min-width: 163px;
+  max-width: 200px;
+  margin-bottom: 24px;
+}
+.footer__btn:hover {
+  opacity: 0.4;
+}
+.footer__right-text {
+  font-size: 15px;
+  line-height: 26px;
+  text-align: right;
+  letter-spacing: -0.234375px;
+  color: #FFFFFF;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+  width: 220px;
 }/*# sourceMappingURL=styles.css.map */

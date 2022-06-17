@@ -2,7 +2,7 @@
   background-image: url("./../../images/phone__bgi.png");
   background-repeat: no-repeat;
   background-position: calc(50% + 480px) -130px;
-  background-color: #F2F2F2;
+  // background-color: #F2F2F2;
 
   &__inner-wrapper {
     padding-top: 170px;
@@ -35,11 +35,15 @@
 
   &__btn {
     @include btn__normal;
+
+    &:hover {
+      opacity: 0.4;
+    }
   }
 }
 
 .main {
-  background-image: url("./../../images/shape__bgi.png");
   background-repeat: no-repeat;
-  background-position: calc(50% + 605px) -260px ;
+  background-position: calc(50% + 605px) -260px;
+  background-image: url("./../../images/shape__bgi.png");
 }

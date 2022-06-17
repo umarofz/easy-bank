@@ -39,5 +39,9 @@
 
   &__btn {
     @include btn__normal;
+
+    &:hover {
+      opacity: 0.4;
+    }
   }
 }
